@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F36874C17EE4A1D0037BD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36874B17EE4A1D0037BD11 /* Foundation.framework */; };
+		3F36874E17EE4A1D0037BD11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36874D17EE4A1D0037BD11 /* CoreGraphics.framework */; };
+		3F36875017EE4A1D0037BD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36874F17EE4A1D0037BD11 /* UIKit.framework */; };
+		3F36875617EE4A1D0037BD11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F36875417EE4A1D0037BD11 /* InfoPlist.strings */; };
+		3F36875817EE4A1D0037BD11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36875717EE4A1D0037BD11 /* main.m */; };
+		3F36875C17EE4A1D0037BD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36875B17EE4A1D0037BD11 /* AppDelegate.m */; };
+		3F36875F17EE4A1D0037BD11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F36875D17EE4A1D0037BD11 /* Main.storyboard */; };
+		3F36876217EE4A1D0037BD11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36876117EE4A1D0037BD11 /* ViewController.m */; };
+		3F36876417EE4A1D0037BD11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F36876317EE4A1D0037BD11 /* Images.xcassets */; };
+		3F36876B17EE4A1D0037BD11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36876A17EE4A1D0037BD11 /* XCTest.framework */; };
+		3F36876C17EE4A1D0037BD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36874B17EE4A1D0037BD11 /* Foundation.framework */; };
+		3F36876D17EE4A1D0037BD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36874F17EE4A1D0037BD11 /* UIKit.framework */; };
+		3F36877517EE4A1D0037BD11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F36877317EE4A1D0037BD11 /* InfoPlist.strings */; };
+		3F36877717EE4A1D0037BD11 /* TabBarColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36877617EE4A1D0037BD11 /* TabBarColorTests.m */; };
+		3FB672BE17F13BE7004F32DC /* CRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB672BD17F13BE7004F32DC /* CRNavigationBar.m */; };
+		3FB672C417F16FBB004F32DC /* CRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB672C317F16FBB004F32DC /* CRNavigationController.m */; };
+		3FB672C717F2A10E004F32DC /* AZColoredNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB672C617F2A10E004F32DC /* AZColoredNavigationBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F36876E17EE4A1D0037BD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F36874017EE4A1D0037BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F36874717EE4A1D0037BD11;
+			remoteInfo = TabBarColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F36874817EE4A1D0037BD11 /* TabBarColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F36874B17EE4A1D0037BD11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F36874D17EE4A1D0037BD11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F36874F17EE4A1D0037BD11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F36875317EE4A1D0037BD11 /* TabBarColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarColor-Info.plist"; sourceTree = "<group>"; };
+		3F36875517EE4A1D0037BD11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F36875717EE4A1D0037BD11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F36875917EE4A1D0037BD11 /* TabBarColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabBarColor-Prefix.pch"; sourceTree = "<group>"; };
+		3F36875A17EE4A1D0037BD11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F36875B17EE4A1D0037BD11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F36875E17EE4A1D0037BD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F36876017EE4A1D0037BD11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F36876117EE4A1D0037BD11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F36876317EE4A1D0037BD11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F36876917EE4A1D0037BD11 /* TabBarColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F36876A17EE4A1D0037BD11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F36877217EE4A1D0037BD11 /* TabBarColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarColorTests-Info.plist"; sourceTree = "<group>"; };
+		3F36877417EE4A1D0037BD11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F36877617EE4A1D0037BD11 /* TabBarColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarColorTests.m; sourceTree = "<group>"; };
+		3FB672BC17F13BE7004F32DC /* CRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRNavigationBar.h; path = ../CRNavigationBar.h; sourceTree = "<group>"; };
+		3FB672BD17F13BE7004F32DC /* CRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRNavigationBar.m; path = ../CRNavigationBar.m; sourceTree = "<group>"; };
+		3FB672C217F16FBB004F32DC /* CRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRNavigationController.h; sourceTree = "<group>"; };
+		3FB672C317F16FBB004F32DC /* CRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRNavigationController.m; sourceTree = "<group>"; };
+		3FB672C517F2A10E004F32DC /* AZColoredNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZColoredNavigationBar.h; sourceTree = "<group>"; };
+		3FB672C617F2A10E004F32DC /* AZColoredNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZColoredNavigationBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F36874517EE4A1D0037BD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36874E17EE4A1D0037BD11 /* CoreGraphics.framework in Frameworks */,
+				3F36875017EE4A1D0037BD11 /* UIKit.framework in Frameworks */,
+				3F36874C17EE4A1D0037BD11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F36876617EE4A1D0037BD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36876B17EE4A1D0037BD11 /* XCTest.framework in Frameworks */,
+				3F36876D17EE4A1D0037BD11 /* UIKit.framework in Frameworks */,
+				3F36876C17EE4A1D0037BD11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F36873F17EE4A1D0037BD11 = {
+			isa = PBXGroup;
+			children = (
+				3F36875117EE4A1D0037BD11 /* TabBarColor */,
+				3F36877017EE4A1D0037BD11 /* TabBarColorTests */,
+				3F36874A17EE4A1D0037BD11 /* Frameworks */,
+				3F36874917EE4A1D0037BD11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F36874917EE4A1D0037BD11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F36874817EE4A1D0037BD11 /* TabBarColor.app */,
+				3F36876917EE4A1D0037BD11 /* TabBarColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F36874A17EE4A1D0037BD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F36874B17EE4A1D0037BD11 /* Foundation.framework */,
+				3F36874D17EE4A1D0037BD11 /* CoreGraphics.framework */,
+				3F36874F17EE4A1D0037BD11 /* UIKit.framework */,
+				3F36876A17EE4A1D0037BD11 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F36875117EE4A1D0037BD11 /* TabBarColor */ = {
+			isa = PBXGroup;
+			children = (
+				3FB672C517F2A10E004F32DC /* AZColoredNavigationBar.h */,
+				3FB672C617F2A10E004F32DC /* AZColoredNavigationBar.m */,
+				3F36875A17EE4A1D0037BD11 /* AppDelegate.h */,
+				3F36875B17EE4A1D0037BD11 /* AppDelegate.m */,
+				3F36875D17EE4A1D0037BD11 /* Main.storyboard */,
+				3F36876017EE4A1D0037BD11 /* ViewController.h */,
+				3F36876117EE4A1D0037BD11 /* ViewController.m */,
+				3F36876317EE4A1D0037BD11 /* Images.xcassets */,
+				3F36875217EE4A1D0037BD11 /* Supporting Files */,
+				3FB672BC17F13BE7004F32DC /* CRNavigationBar.h */,
+				3FB672BD17F13BE7004F32DC /* CRNavigationBar.m */,
+				3FB672C217F16FBB004F32DC /* CRNavigationController.h */,
+				3FB672C317F16FBB004F32DC /* CRNavigationController.m */,
+			);
+			path = TabBarColor;
+			sourceTree = "<group>";
+		};
+		3F36875217EE4A1D0037BD11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F36875317EE4A1D0037BD11 /* TabBarColor-Info.plist */,
+				3F36875417EE4A1D0037BD11 /* InfoPlist.strings */,
+				3F36875717EE4A1D0037BD11 /* main.m */,
+				3F36875917EE4A1D0037BD11 /* TabBarColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F36877017EE4A1D0037BD11 /* TabBarColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F36877617EE4A1D0037BD11 /* TabBarColorTests.m */,
+				3F36877117EE4A1D0037BD11 /* Supporting Files */,
+			);
+			path = TabBarColorTests;
+			sourceTree = "<group>";
+		};
+		3F36877117EE4A1D0037BD11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F36877217EE4A1D0037BD11 /* TabBarColorTests-Info.plist */,
+				3F36877317EE4A1D0037BD11 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F36874717EE4A1D0037BD11 /* TabBarColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F36877A17EE4A1D0037BD11 /* Build configuration list for PBXNativeTarget "TabBarColor" */;
+			buildPhases = (
+				3F36874417EE4A1D0037BD11 /* Sources */,
+				3F36874517EE4A1D0037BD11 /* Frameworks */,
+				3F36874617EE4A1D0037BD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarColor;
+			productName = TabBarColor;
+			productReference = 3F36874817EE4A1D0037BD11 /* TabBarColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F36876817EE4A1D0037BD11 /* TabBarColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F36877D17EE4A1D0037BD11 /* Build configuration list for PBXNativeTarget "TabBarColorTests" */;
+			buildPhases = (
+				3F36876517EE4A1D0037BD11 /* Sources */,
+				3F36876617EE4A1D0037BD11 /* Frameworks */,
+				3F36876717EE4A1D0037BD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F36876F17EE4A1D0037BD11 /* PBXTargetDependency */,
+			);
+			name = TabBarColorTests;
+			productName = TabBarColorTests;
+			productReference = 3F36876917EE4A1D0037BD11 /* TabBarColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F36874017EE4A1D0037BD11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Elder Brother Bear";
+				TargetAttributes = {
+					3F36876817EE4A1D0037BD11 = {
+						TestTargetID = 3F36874717EE4A1D0037BD11;
+					};
+				};
+			};
+			buildConfigurationList = 3F36874317EE4A1D0037BD11 /* Build configuration list for PBXProject "TabBarColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F36873F17EE4A1D0037BD11;
+			productRefGroup = 3F36874917EE4A1D0037BD11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F36874717EE4A1D0037BD11 /* TabBarColor */,
+				3F36876817EE4A1D0037BD11 /* TabBarColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F36874617EE4A1D0037BD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36876417EE4A1D0037BD11 /* Images.xcassets in Resources */,
+				3F36875617EE4A1D0037BD11 /* InfoPlist.strings in Resources */,
+				3F36875F17EE4A1D0037BD11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F36876717EE4A1D0037BD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36877517EE4A1D0037BD11 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F36874417EE4A1D0037BD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36876217EE4A1D0037BD11 /* ViewController.m in Sources */,
+				3F36875C17EE4A1D0037BD11 /* AppDelegate.m in Sources */,
+				3FB672C417F16FBB004F32DC /* CRNavigationController.m in Sources */,
+				3F36875817EE4A1D0037BD11 /* main.m in Sources */,
+				3FB672BE17F13BE7004F32DC /* CRNavigationBar.m in Sources */,
+				3FB672C717F2A10E004F32DC /* AZColoredNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F36876517EE4A1D0037BD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36877717EE4A1D0037BD11 /* TabBarColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F36876F17EE4A1D0037BD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F36874717EE4A1D0037BD11 /* TabBarColor */;
+			targetProxy = 3F36876E17EE4A1D0037BD11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F36875417EE4A1D0037BD11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F36875517EE4A1D0037BD11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F36875D17EE4A1D0037BD11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F36875E17EE4A1D0037BD11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F36877317EE4A1D0037BD11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F36877417EE4A1D0037BD11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F36877817EE4A1D0037BD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F36877917EE4A1D0037BD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F36877B17EE4A1D0037BD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBarColor/TabBarColor-Prefix.pch";
+				INFOPLIST_FILE = "TabBarColor/TabBarColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F36877C17EE4A1D0037BD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBarColor/TabBarColor-Prefix.pch";
+				INFOPLIST_FILE = "TabBarColor/TabBarColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F36877E17EE4A1D0037BD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabBarColor.app/TabBarColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBarColor/TabBarColor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TabBarColorTests/TabBarColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F36877F17EE4A1D0037BD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabBarColor.app/TabBarColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabBarColor/TabBarColor-Prefix.pch";
+				INFOPLIST_FILE = "TabBarColorTests/TabBarColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F36874317EE4A1D0037BD11 /* Build configuration list for PBXProject "TabBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F36877817EE4A1D0037BD11 /* Debug */,
+				3F36877917EE4A1D0037BD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F36877A17EE4A1D0037BD11 /* Build configuration list for PBXNativeTarget "TabBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F36877B17EE4A1D0037BD11 /* Debug */,
+				3F36877C17EE4A1D0037BD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F36877D17EE4A1D0037BD11 /* Build configuration list for PBXNativeTarget "TabBarColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F36877E17EE4A1D0037BD11 /* Debug */,
+				3F36877F17EE4A1D0037BD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F36874017EE4A1D0037BD11 /* Project object */;
+}
